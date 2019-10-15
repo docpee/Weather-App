@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="    https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <title>Data App</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="logs/index.html">Logs</a></li>
+        </ul>
+    </nav>
+    <h1>Data App</h1>
+    <p>Latitudine: <span id="latitudine"></span>&deg;<br>
+        Longitudine: <span id="longitudine"></span>&deg;</p>
+    <p>Il clima è <span id="summary"></span> con una temperatura di <span id="temperature"></span>° C.<br>La
+        concentrazione di polveri (<span id="aq_parameter"></span>) è <span id="aq_value"></span> <span
+            id="aq_units"></span> ultimo
+        rilievo <span id="aq_date"></span>
+    </p>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
